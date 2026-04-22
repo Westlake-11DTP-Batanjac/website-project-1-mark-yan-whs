@@ -7,8 +7,10 @@
 
     <h1> Mark yans home page</h1>
     <hr/>
-    <p> welcome to my first wepgae created in vs code!
-    <p> I am learning how to use HTML Tags and Github
+    <p>
+        welcome to my first wepgae created in vs code!<br>
+        I am learning how to use HTML Tags and Github
+    </p>
 
 
 </body>
