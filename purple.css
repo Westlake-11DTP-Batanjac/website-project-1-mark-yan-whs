@@ -68,29 +68,41 @@ nav ul li a {
 .main-content {
     background-color: #e0e0e0; 
     padding: 40px;
-    height: 700px;
+    height: 900px;
 
     /* STUDENT TASK: Initialize flex and space the boxes */
     
      
 }
  
-.content-box {
+#content-box{
     background-color: #b0a3a3; 
-    width: 300px;
-    height: 500px;
-    display: flex;
-    justify-content: space-evenly;
-    
+    width: 600px;
+    height: 650px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-left: 300px;
+    font-size: x-large;
+
 
 }
  
-.image-box {
+#image-box{
     background-color: #b0a3a3;
-    width: 250px;
-    height: 250px;
+    width: 500px;
+    height: 650px;
+    margin-top: -700px;
+    margin-left: 1500px;
+
+    
+    
     
     /* HINT: Use both 'justify' and 'align' to center the word 'image' inside here */
+}
+#amihr {
+
+    height: 1000px;
+    width: 1000px;
 }
  
 /* 5. FOOTER: 
