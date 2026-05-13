@@ -107,26 +107,37 @@ nav ul li a {
  
 /* 5. FOOTER: 
    HINT: Use 'flex-direction' again to stack the text and social bar. */
-footer {
-    background-color: #b38bff; 
-    padding: 20px;
-    height: 300px;
+footer ul {
+
+    list-style: none;  
+    justify-content: space-around;
     display: flex;
+    font-size: xx-large;
 
    
     /* STUDENT TASK: Initialize flex and stack elements */
 }
- 
+
+
 #social-links {
     background-color: #d9d9d9; 
     color: white;
     padding: 10px 40px;
     align-self: flex-end;
     margin-left: 890px;
+    margin-top: 250px;
     width: 500px;
     height: 50px;
     font-size: xx-large;
     text-align: center;
     border: 1px solid #777;
+
+}
+
+footer {
+    background-color: #b38bff; 
+    padding: 20px;
+    height: 400px;
+    
 
 }
