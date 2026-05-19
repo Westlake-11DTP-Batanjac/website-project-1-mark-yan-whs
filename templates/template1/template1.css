@@ -33,3 +33,31 @@ header ul{
     justify-content: space-around;
     width: 100%;
 }
+
+.main-container{
+  display: flex;
+  
+}
+table, th, td{
+  padding: 10px;
+  border: 1px solid black;
+  text-align:center;
+
+}
+
+.easy {
+    background-color:  green;
+}
+.medium {
+    background-color: orange;
+}
+.hard {
+    background-color:  red;
+}
+.impossible {
+    background-color: darkred;
+}
+.hacker {
+    background-color:  hotpink;
+}
+
