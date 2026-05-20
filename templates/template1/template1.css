@@ -19,9 +19,10 @@ header img {
    border-radius: 90px;
 
 }
- h1 {
+ h1::backdrop{
   margin-left: 50px;
   font-family:fantasy;
+
  }
 
 header ul{
@@ -36,16 +37,26 @@ header ul{
 
 .main-container{
   display: flex;
+
+ justify-content: flex-end;
   
 }
 table, th, td{
+
   padding: 10px;
   border: 1px solid black;
   text-align:center;
 
+
+
 }
 
-.easy {
+.heads {
+  background-color: aquamarine;
+
+
+}
+.easy{
     background-color:  green;
 }
 .medium {
@@ -61,3 +72,14 @@ table, th, td{
     background-color:  hotpink;
 }
 
+tr:hover {
+   background-color: aquamarine;
+   font-size: 100px;
+   font-family: fantasy;
+
+}
+
+#feetback{
+  background-color: blanchedalmond;
+
+}
