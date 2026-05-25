@@ -79,7 +79,17 @@ tr:hover {
 
 }
 
-#feetback{
-  background-color: blanchedalmond;
+#amir {
+  display: flex;
+  justify-content: space-around;
 
+  list-style: none;
+  
+}
+
+footer {
+  background-color:burlywood;
+  margin-top: 290px;
+  height: 100px;
+  padding-top: 50px;
 }
