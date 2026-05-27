@@ -9,14 +9,14 @@ body {
 header {
   display: flex;
   background-color:cornflowerblue;
-  padding: 40px;
+  padding: -10px;
   margin:auto;
   width: auto;
 
 }
 header img {
-   height: 100px;
-   width: 100px;
+   height: 90px;
+   width: 90px;
    border: 10px solid navy;
    border-radius: 90px;
 
