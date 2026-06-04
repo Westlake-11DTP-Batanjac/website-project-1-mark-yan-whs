@@ -2,14 +2,21 @@ body {
     padding: 0;
     margin: 0;
     background-image: url(fishfamily.jpg);
+    background-position: -150px, -0px;
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size:cover;
 
 }
 
 header{
     display: flex;
+}
+
+.bigone {
+    font-size: 100px;
+    display: flex;
+    justify-content: flex-start;
+
 }
 
 header h1{
@@ -26,7 +33,7 @@ header h1{
 }
 
 nav ul {
-
+    position: relative;
     display: flex;
     list-style: none;
     justify-content: space-evenly;
@@ -40,8 +47,12 @@ nav {
     width: 100%;
     margin-top: -70px;
 }
-li{
-    padding-right: 500px;
-    padding-left: 400px;
+
+footer {
+  background: linear-gradient( rgb(10, 138, 235), rgb(63, 150, 249), rgb(134, 220, 253));
+  display: flex;
+  margin-top: 900px;
+  height: 200px;
+ 
 }
 
