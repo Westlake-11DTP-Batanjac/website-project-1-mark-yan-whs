@@ -46,17 +46,14 @@ header a{
 
 nav ul {
 
-    position: sticky;
-    top:0;
+    position: relative;
     display: flex;
     list-style: none;
     justify-content: space-evenly;
     align-items: center;
     font-size: x-large;
-} 
+}
 nav {
-    position: sticky;
-    top:0;
     background-image: linear-gradient( rgb(134, 220, 253));
     background-repeat: no-repeat;
     height: 40px;

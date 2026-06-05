@@ -8,13 +8,12 @@ body {
     background-size:cover;
 
 }
-
 header{
     display: flex;
     position:sticky;
     top:0;
 }
-header a{
+header h1{
     color:gold;
     text-shadow: -3px -2px darkblue;
 }
@@ -31,7 +30,7 @@ header a{
     word-spacing: 12px;
 }
 
-header a{
+header h1{
     
     background-image: linear-gradient(rgb(10, 138, 235), rgb(63, 150, 249), rgb(134, 220, 253));
     background-repeat: no-repeat;
@@ -46,22 +45,23 @@ header a{
 
 nav ul {
 
-    position: sticky;
-    top:0;
+    position: relative;
     display: flex;
     list-style: none;
     justify-content: space-evenly;
     align-items: center;
     font-size: x-large;
-} 
-nav {
-    position: sticky;
+    position:sticky;
     top:0;
+}
+nav {
     background-image: linear-gradient( rgb(134, 220, 253));
     background-repeat: no-repeat;
     height: 40px;
     width: 100%;
     margin-top: -70px;
+    position:sticky;
+    top:0;
     
 }
 
@@ -71,10 +71,5 @@ footer {
   margin-top: 50px;
   height: 250px;
  
-}
-
-a {
-    color: black;
-    text-decoration:none;
 }
 
