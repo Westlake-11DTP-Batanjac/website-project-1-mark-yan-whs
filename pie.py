@@ -1,5 +1,6 @@
-temp=int(input("hot?"))
-print((temp-32) * 5/9)
-if temp <=0:
-    print('freeze')
-elif temp 237238
+s1=int(input("angle: "))
+s2=int(input("angle: "))
+s3=int(input("angle: "))
+s4=int(input("angle: "))
+s5=int(input("angle: "))
+s6=int(input("angle: "))
