@@ -1,6 +1,12 @@
-s1=int(input("angle: "))
-s2=int(input("angle: "))
-s3=int(input("angle: "))
-s4=int(input("angle: "))
-s5=int(input("angle: "))
-s6=int(input("angle: "))
+s1=int(input("angle MIN: "))
+s2=int(input("angle MIN: "))
+s3=int(input("angle MIN: "))
+s4=int(input("angle DEG: "))
+s5=int(input("angle DEG: "))
+s6=int(input("angle DEG: "))
+
+if (s1 / 60) < 1.5  and (s2 / 60) < 1.5 and (s3 / 60) < 1.5:
+    print('youre acute')
+else:
+    print('you suck')
+  
