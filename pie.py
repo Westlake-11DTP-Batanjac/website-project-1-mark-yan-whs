@@ -1,12 +1,14 @@
-list=[]
+jesvell = []
 
-for i in range(5):
-    list.append(int(input()))
-for i in range(5):
-    if list[i] % 2==0:                                 
-        print('even')
-    else:
-        print('odd')
+for i in range(7): 
+    jesvell.append(int(input()))
 
+if jesvell[i] < 0:
+    jesvell.remove()
+else:
+    print(sum(jesvell))
+
+
+    
 
 
