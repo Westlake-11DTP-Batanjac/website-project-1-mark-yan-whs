@@ -1,14 +1,8 @@
-jesvell = []
+j =[]
+for i in range(6):
+    j.append(int(input('hih: ')))
+    if j < 0:
+        j.pop(j)
 
-for i in range(7): 
-    jesvell.append(int(input()))
-
-if jesvell[i] < 0:
-    jesvell.remove()
-else:
-    print(sum(jesvell))
-
-
+print(j)
     
-
-
