@@ -1,14 +1,30 @@
+x = 1
+numbers = [1, 2, 5, 7, 31, 13, 24, 25]
+
+
+
+
+
+
+
+
+
+
+
+
+
 def funkprime(n):
-    i = 1
-    for i in range(2, n):
-        i += n
-        if n % i == 0:
-            return True
-        else:
+
+    for i in range(len(numbers)):
+        
+        if n % numbers[i == 0:
             return False
 
+    return True
 
-print(funkprime(4))
+
+print(funkprime(x)) 
+print(x)   
 
 
 
